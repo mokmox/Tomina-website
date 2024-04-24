@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #B8AA84;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #A51E1E;
+    font-weight: 900 !important;
+    font-size: 40px !important;
+}
+
+
+.arrowstyle .swiper-button-prev::after,
+.arrowstyle .swiper-button-next::after {
+    color: #B8AA84 !important;
+    font-size: 44px !important;
+    font-weight: 900 !important;
+}
+
+.bg-h-gradiant {
+    /* background: linear-gradient(180deg, rgba(165, 30, 30, 0.7849264705882353) 0%, rgba(184, 170, 132, 0.9866071428571429) 47%); */
+    background: linear-gradient(180deg, rgba(165, 30, 30, 0) 0%, #A3252A 100%);
+
+}
+
+.gradiant-top {
+    background: rgb(165, 30, 30);
+    background: linear-gradient(180deg, rgba(165, 30, 30, 0.7569152661064426) 0%, rgba(255, 255, 255, 0) 45%);
+}
+
+@media (max-width:680px) {
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        color: #A51E1E;
+        font-weight: bolder;
+        font-size: 35px !important;
+    }
+
+    .arrowstyle .swiper-button-prev::after,
+    .arrowstyle .swiper-button-next::after {
+        color: #B8AA84 !important;
+        font-size: 35px !important;
+        font-weight: 900 !important;
+    }
+}
