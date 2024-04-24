@@ -1,23 +1,19 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
-import Slider from "../components/Slider";
-import Feature from "../components/Feature";
-import Main from "../components/Main";
-import Header from "../components/Header";
-import Product from "../components/Product";
-import Field from "../components/Field";
-import Detail from "../components/Detail";
-import Subject from "../components/Subject";
-
+import type { HeadFC, PageProps } from 'gatsby';
+import * as React from 'react';
+import Reciepies from '../components/home/Reciepies';
+import Field from '../components/home/Field';
+import FeatureredReciepes from '../components/home/FeaturedReciepies';
+import OurProduct from '../components/home/OurProducts';
+import Header from '../components/home/Header';
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
-      <Main />
+      <Header />
       <Field />
-      <Product />
-      <Feature />
-      <Detail />
+      <OurProduct />
+      <FeatureredReciepes />
+      <Reciepies />
     </div>
   );
 };
