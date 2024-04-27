@@ -58,7 +58,7 @@ function About() {
         </h3>
         </div>
        </div>
-       <div className=' relative justify-center items-center flex flex-col bg-[url("../images/fields.png")] bg-no-repeat bg-cover bg-center w-full md:h-[679.11px] h-[378px]'>
+       <div className='gradientbg-fields relative justify-center items-center flex flex-col bg-[url("../images/fields.png")] bg-no-repeat bg-cover bg-center w-full md:h-[679.11px] h-[378px]'>
         <div className='max-w-[1069px] w-full mx-auto lg:px-0 px-5'>
         <h1 className=' text-white md:text-[64px] text-[24px] font-[800] md:leading-[78.02px] leading-[29.26px] text-center mx-auto'>Our Company</h1>
        <p className='mt-5 md:px-0 px-3 text-white md:text-[20px] text-xs md:leading-[24.78px] leading-[14.23px] text-center mx-auto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
